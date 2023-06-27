@@ -34,3 +34,7 @@ pyplot.yticks([0.70, 0.75,0.80,0.85,0.90,0.92])
 pyplot.xticks([10, 20, 50, 100])
 #plt.title("A simple plot") #标题
 plt.savefig('Fig.png',dpi = 300)
+# plt.savefig() 用于保存图片
+# fname 保存的图片文件的名称
+# dpi 保存图片的分辨率
+# 注意：该方法不能在plt.show()后面，否则保存为空图片
